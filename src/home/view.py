@@ -5,4 +5,4 @@ def home_view(request):
     return HttpResponse("Hello World")
 
 def about_view(request):
-    return render(request,'home.html')
+    return render(request, 'snippets/home.html')
