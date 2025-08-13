@@ -1,3 +1,10 @@
+src\staticfiles\vendors
+
+#Ignore local static files root
+#local-cdn 
+local-cdn/
+
+
 .DS_Store
 venv/
 
